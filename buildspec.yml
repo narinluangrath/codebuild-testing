@@ -12,8 +12,8 @@ phases:
 
   pre_build:
     commands:
-      - docker pull docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.3
-      - docker pull grokzen/redis-cluster:4.0.9
+      - sudo docker pull docker.elastic.co/elasticsearch/elasticsearch-oss:6.2.3
+      - sudo docker pull grokzen/redis-cluster:4.0.9
       - echo "pre_build commands"
 
   build:
